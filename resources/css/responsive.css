@@ -1,0 +1,141 @@
+@media only screen and (max-width: 980px){
+        .slider h1 {
+    left: 24%;
+    font-size: 40px;
+}
+}
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 500px;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    header nav{
+    display: none;
+}
+    .slider .left img {
+    width: 50%;
+    height: 410px;
+}
+    .slider .right img {
+    width: 98%;
+    height: 410px;
+}
+    .about-area .image-area img {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+.about-area .text-area span{
+    width: 40px;
+    background: #f2622c;
+    height: 3px;
+    display: block;
+    margin: auto;
+}
+.about-area .text-area h2{
+    font-size: 32px;
+    color: #1f4f87;
+    margin: 12px 0;
+    text-align: center;
+}
+    .services-area .grid img {
+    width: 162px;
+}
+    .about-area .flex{
+    display: block;
+    justify-content: space-around;
+}
+    .about-area .image-area {
+    margin-left: 0;
+    margin-top: 35px;
+}
+    .members-area .grid{
+        margin-top: 50px;
+    }
+    .members-area .flex {
+    display: block;
+}
+    .languages-area .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+}
+@media only screen and (max-width: 480px){
+    .container{
+        width: 350px;
+        margin: auto;
+    }
+    .about-area {
+    display: block;
+    text-align: center;
+}
+    .slider h1 {
+    left: 20%;
+    font-size: 28px;
+}
+    .about-area .text-area p {
+    margin-right: 0;
+}
+    .services-area .grid {
+    display: grid;
+    grid-template-columns: auto;
+    top: 15%;
+}
+    .services-area .grid img {
+    width: 200px;
+    text-align: center;
+}
+    .services-area {
+    height: 1000px;
+}
+    .services-area #overlay{
+    margin: 5px auto;
+    width: 20%;
+        
+}
+    .services-area .box h3 {
+    position: absolute;
+    left: 70%;
+    font-size: 15px;
+}
+    .members-area .grid .box img {
+    width: 250px;
+}
+    .members-area .grid {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+}
+    .members-area span{
+    margin: auto;
+}
+.members-area h2{
+    text-align: center;
+}
+    .languages-area .grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+    .languages-area .box {
+    margin: 22px 0;
+}
+}
+@media only screen and (max-width: 360px){
+    .container{
+        width: 300px;
+    }
+    .services-area .grid img {
+    width: 170px;
+    text-align: center;
+}
+    .slider h1 {
+    left: 11%;
+    font-size: 28px;
+}
+    .services-area {
+    height: 900px;
+}
+    
+}
